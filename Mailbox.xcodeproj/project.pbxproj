@@ -12,6 +12,7 @@
 		9F598AF41D025E2F001D41F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F598AF21D025E2F001D41F8 /* Main.storyboard */; };
 		9F598AF61D025E2F001D41F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F598AF51D025E2F001D41F8 /* Assets.xcassets */; };
 		9F598AF91D025E2F001D41F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F598AF71D025E2F001D41F8 /* LaunchScreen.storyboard */; };
+		9F598B011D025E97001D41F8 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F598B001D025E97001D41F8 /* MailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9F598AF51D025E2F001D41F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F598AF81D025E2F001D41F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F598AFA1D025E2F001D41F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F598B001D025E97001D41F8 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9F598AEE1D025E2F001D41F8 /* AppDelegate.swift */,
 				9F598AF01D025E2F001D41F8 /* ViewController.swift */,
 				9F598AF21D025E2F001D41F8 /* Main.storyboard */,
+				9F598B001D025E97001D41F8 /* MailboxViewController.swift */,
 				9F598AF51D025E2F001D41F8 /* Assets.xcassets */,
 				9F598AF71D025E2F001D41F8 /* LaunchScreen.storyboard */,
 				9F598AFA1D025E2F001D41F8 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				9F598AF11D025E2F001D41F8 /* ViewController.swift in Sources */,
 				9F598AEF1D025E2F001D41F8 /* AppDelegate.swift in Sources */,
+				9F598B011D025E97001D41F8 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
