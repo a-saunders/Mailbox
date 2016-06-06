@@ -78,16 +78,20 @@ class MailboxViewController: UIViewController {
             
             if translation.x > 60 && translation.x < 260 {
                 deleteIcon.alpha = 0
-                archiveIcon.alpha = 1
                 archiveIcon.center.x = archiveIconOriginalCenter.x - 60
                 view.backgroundColor = greenColor
+                UIView.animateWithDuration(0.3, animations: { () -> Void in
+                    self.archiveIcon.alpha = 1
+                })
             } else if translation.x > 260 {
                 archiveIcon.alpha = 0
                 deleteIcon.alpha = 1
                 deleteIcon.center.x = archiveIcon.center.x
                 view.backgroundColor = UIColor.redColor()
             } else if translation.x < -60 && translation.x > -260 {
-                laterIcon.alpha = 1
+                UIView.animateWithDuration(0.3, animations: { () -> Void in
+                    self.laterIcon.alpha = 1
+                })
                 listIcon.alpha = 0
                 laterIcon.center.x = laterIconOriginalCenter.x + 60
                 view.backgroundColor = yellowColor
